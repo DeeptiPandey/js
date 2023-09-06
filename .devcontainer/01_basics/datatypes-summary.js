@@ -35,3 +35,10 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive) Heap(Non primitive)
+
+let myGitname ="DeeptiPandey"
+
+let anothername = myGitname
+console.log(anothername);
