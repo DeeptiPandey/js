@@ -40,5 +40,17 @@ console.log(typeof anotherId);
 
 let myGitname ="DeeptiPandey"
 
-let anothername = myGitname
+let anothername = "Deepti"
+console.log(myGitname);
 console.log(anothername);
+
+let userOne ={
+    email: "user@googlle.com",
+    upi: "user@byl"
+}
+let userTwo = userOne
+userTwo.email = "deepti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+//Reference is gained for non primitive data types so the changes we make is reflected in original data.
